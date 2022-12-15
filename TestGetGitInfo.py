@@ -5,7 +5,7 @@ from GetGitInfo import get_git_info
 class TestGetGitInfo(unittest.TestCase):
     def test_valid_user(self):
         expected_output = ['User: yyan27',
-                    'Repo: GitHubApi567 Number of commits: 4',
+                    'Repo: GitHubApi567 Number of commits: 5',
                     'Repo: Hello_world Number of commits: 3',
                     'Repo: inclass Number of commits: 23',
                     'Repo: react-native-delivery-app Number of commits: 30',
